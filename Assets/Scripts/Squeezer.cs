@@ -10,10 +10,12 @@ public class Squeezer : FactoryBase
 
     private void Awake()
     {
+        // INHERITANCE
         pointSpeed = 2;
         factoryCost = 10;
     }
 
+    // POLYMORPHISM
     protected override void UpdateManipulateVars(int factor)
     {
         if (factor == 0) return;

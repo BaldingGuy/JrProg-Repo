@@ -31,6 +31,7 @@ public abstract class FactoryBase : MonoBehaviour
         ManufacturePoints();        
     }
 
+    // ABSTRACTION
     private void ManufacturePoints()
     {
         timer += Time.deltaTime;
@@ -42,8 +43,10 @@ public abstract class FactoryBase : MonoBehaviour
         }
     }
 
+    // POLYMORPHISM
     abstract protected void UpdateManipulateVars(int factor);
 
+    // ABSTRACTION
     public void BuildFactory()
     {
         int currentPoints = GameManager.Instance.GetScore();

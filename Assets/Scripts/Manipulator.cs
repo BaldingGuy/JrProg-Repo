@@ -10,6 +10,7 @@ public class Manipulator : MonoBehaviour
     private float timer;
     private bool squeeze = true;
 
+    // ENCAPSULATION
     public void SetYTarget(float value) { yTarget = value; }
     public void SetXTarget(float value) {  xTarget = value; }
 

@@ -34,18 +34,21 @@ public class GameCanvas : MonoBehaviour
         UpdateTimeDisplay();
     }
 
+    // ABSTRACTION
     private void UpdateScoreDisplay()
     {
         int currentScore = GameManager.Instance.GetScore();
         scoreText.text = $"Points: {currentScore}";
     }
 
+    // ABSTRACTION
     private void UpdateTimeDisplay()
     {
         int currentTime = Mathf.RoundToInt(GameManager.Instance.GetTimer());
         timeDisplay.text = currentTime.ToString("00");
     }
 
+    // ABSTRACTION
     private void UpdateHiScoreDisplay()
     {
         int hiScore = GameManager.Instance.GetHiScore();

@@ -79,11 +79,13 @@ public class GameManager : MonoBehaviour
         InitiateValues();
     }
 
+    // ABSTRACTION
     public void AddPoints(int amount)
     {
         score += amount;
     }
 
+    // ABSTRACTION
     public void DeductPoints(int amount)
     {
         score -= amount;

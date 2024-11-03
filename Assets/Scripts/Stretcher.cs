@@ -9,10 +9,12 @@ public class Stretcher : FactoryBase
 
     private void Awake()
     {
+        // INHERITANCE
         pointSpeed = 4;
         factoryCost = 25;
     }
 
+    // POLYMORPHISM
     protected override void UpdateManipulateVars(int factor)
     {
         if (factor == 0) return;
