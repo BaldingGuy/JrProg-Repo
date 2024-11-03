@@ -96,7 +96,7 @@ PrefabInstance:
     - target: {fileID: 5905828226712820981, guid: 52af14c67e6ab1441954c0310d533b74,
         type: 3}
       propertyPath: m_Name
-      value: Stretcher Variant
+      value: Stretcher
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -123,5 +123,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de538d1a459718045a29eebac248d4c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointSpeed: 0
+  factoryCost: 0
+  factoryCountDisplay: {fileID: 7669921108932365587}
+--- !u!114 &7669921108932365587 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6874367902369364657, guid: 52af14c67e6ab1441954c0310d533b74,
+    type: 3}
+  m_PrefabInstance: {fileID: 3825704202894423970}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

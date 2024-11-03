@@ -838,8 +838,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: JrProg_Theory
-  metroPackageVersion: 
+  metroPackageName: JrProgTheory
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -847,7 +847,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: JrProg_Theory
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: JrProg_Theory
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

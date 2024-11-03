@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Squeezer : MonoBehaviour
+public class Squeezer : FactoryBase
 {
-    // Start is called before the first frame update
-    void Start()
+    private float squeezeTarget;
+    public float GetSqueezeTarget() {  return squeezeTarget; }
+
+
+    private void Awake()
     {
-        
+        pointSpeed = 2;
+        factoryCost = 10;
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void UpdateManipulateVars(int factor)
     {
-        
+        if (factor == 0) return;
+
+        if (factor > 0) manipulator.SetYTarget(1 / ((float)factor + 1f));
     }
 }
